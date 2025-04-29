@@ -1,3 +1,7 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
 /* styling menu icon */
 .nav-menu{
     border: none;
@@ -7,7 +11,7 @@
 }
 /* styling navbar links  */
 .navbar-nav a{
-    color: black;
+    color: black;   
     position: relative;
 }
 .navbar-nav a:hover{
@@ -30,3 +34,10 @@
     width: 100%; 
     left: 0; 
   }
+  /* styling contact btn  */
+.c-btn{
+    border: none;
+    background: #fca61f;
+    color: #fff;
+    font-size: 1.2rem;
+}
