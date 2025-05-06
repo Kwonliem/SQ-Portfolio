@@ -97,3 +97,36 @@ body {
     }
 }
 
+/* Expertise Styling */
+.heading small {
+    color: #6f34fe;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.heading h3 {
+    margin-top: 0.5rem;
+    color: #fca61f;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.expertise h4 {
+    color: #6f34fe;
+    font-weight: 700;
+}
+
+.expertise a {
+    text-decoration: none;
+    color: #fca61f;
+}
+
+.expertise a:hover {
+    color: #6f34fe;
+}
+
+.expertise .service-card {
+    text-align: center;
+    padding: 15px 15px;
+    border-radius: 0.7rem;
+}
