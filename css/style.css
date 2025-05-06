@@ -130,3 +130,74 @@ body {
     padding: 15px 15px;
     border-radius: 0.7rem;
 }
+
+/* Skill Styling */
+.skill {
+    background-color: rgba(235, 249, 255, 1);
+}
+
+.progress-card {
+    padding: 12% 10% 10% 15%;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.progress-card:hover {
+    transform: scale(1.1,1.1);
+    transition-duration: 0.2s;
+}
+
+.cicular-progess {
+    position: relative;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background: conic-gradient(#fca61f, #6f34fe);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cicular-progess::before {
+    content: "";
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.progress-value {
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.html-progress {
+    color: #fca61f;
+}
+
+.javascript-progress {
+    color: #6f34fe;
+}
+
+.php-progress {
+    color: #fca61f;
+}
+
+.reactjs-progress {
+    color: #6f34fe;
+}
+
+.text {
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.heading p {
+    font-size: 1.3rem;
+}
+
+
